@@ -10,7 +10,7 @@
 <img src="http://g.recordit.co/lzJXndDUYi.gif" alt="">
 <hr>
 <h2>🤔 Como utilizar?</h2>
-<h3>Baixe o <a target="_blank" href="https://www.mediafire.com/file/688f2nkrkhd1wo4/JNOTES.jar/file">JNOTES AQUI</a></h3>
+<h3>Baixe o <a target="_blank" href="https://github.com/alexfrocha/jnotes/blob/master/libs/JNOTES.jar">JNOTES AQUI</a></h3>
 <p>Para delimitar o que você deseja transformar em uma planilha CSV é necessário que você utiliza as tags <code>JNOTES</code> e <code>JEND</code>, caso você inicie a delimitação com o <code>JNOTES</code> e não fechar com o <code>JEND</code> o sistema tentará transformar tudo que vê pela frente em planilha, então se atente bastante nesses detalhes.</p>
 <hr>
 <h3>Modelo para definir a tabela no PDF:</h3>
