@@ -1,20 +1,19 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=ABERTO+PARA+ATUALIZAÇÕES&color=GREEN&style=for-the-badge) <br>
 
-<h2>📑 JNOTES</h2>
+<h2>📑 CRUDAPP</h2>
 <hr>
 <h2>💻 Tecnologias Utilizadas</h2>
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
+<dib style='{display: flex}'>
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+<img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+</div>
 <hr>
 <h2>📃 Sobre o Repositório</h2>
-<p>Visa transformar uma tabela presente em algum arquivo .PDF em um arquivo .CSV, Abaixo tem uma demonstração: </p>
-<img src="http://g.recordit.co/lzJXndDUYi.gif" alt="">
+<p>Um aplicativo com a modelagem CRUD, os dados estão dentros do <code>db.json</code>: </p>
+
 <hr>
 <h2>🤔 Como utilizar?</h2>
-<h3>Baixe o <a target="_blank" href="https://github.com/alexfrocha/jnotes/raw/master/libs/JNOTES.jar">JNOTES AQUI</a></h3>
-<p>Para delimitar o que você deseja transformar em uma planilha CSV é necessário que você utiliza as tags <code>JNOTES</code> e <code>JEND</code>, caso você inicie a delimitação com o <code>JNOTES</code> e não fechar com o <code>JEND</code> o sistema tentará transformar tudo que vê pela frente em planilha, então se atente bastante nesses detalhes.</p>
+<img src="https://user-images.githubusercontent.com/107084445/212782686-cd90e1e4-41bb-4027-8f1d-4564a5c0406f.gif">
+<p>Primeiramente tenha o NodeJS instalado, Agora abra um terminal na pasta do repositório e digite os seguintes comandos</p>
+<code>npm install</code>, após a instalação, digite: <code>npm start</code>
 <hr>
-<h3>Modelo para definir a tabela no PDF:</h3>
-<p>
-   <code>INFO | INFO | INFO | ...</code> <br>
-    Não há um limite para a quantidade de colunas que deseja criar, mas lembre-se de sempre utilizar o <code>|</code> como divisor na parte de separar as colunas.
-</p>
